@@ -23,6 +23,7 @@ It's split into the directories `nixos` and `home-manager`. `nixos` is the syste
 
 Basic look of the tree:
 
+```
 nixos
 |- flake.nix
 |   |- laptop 
@@ -45,6 +46,7 @@ home-manager
 |   |- shared
 |   |   |- ...
 |   |
+```
 
 Each `shared` folder has an `default.nix` that includes everything inside and each `src` folder contains the actual data that is going to be linked.
 
