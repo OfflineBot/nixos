@@ -45,10 +45,16 @@
         gparted
         whatsapp-for-linux
 
-        # wm
+        # wm - hyprland
         swaylock-effects
         swww
         xclip wl-clipboard
+
+        #wm - gnome
+        gnomeExtensions.gnome-40-ui-improvements
+        gnomeExtensions.just-perfection
+        gnomeExtensions.app-icons-taskbar
+        gnomeExtensions.blur-my-shell
 
         # fonts
         nerdfonts
