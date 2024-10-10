@@ -15,7 +15,7 @@ This repository contains my NixOS/home-manager configuration files. It requires 
     * Neovim
     * NodeJS, C++, Rust, Python, ...
 - WindowManager:
-    * GNOME (not configured in a declaritive way)
+    * GNOME (some extensions in `home-manager`)
     * Hyprland (fully customized with: AGS + Swaylock + swww)
 - SDDM
 
