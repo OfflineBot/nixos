@@ -1,10 +1,9 @@
 { inputs, config, pkgs, ... }:
 
 {
-    imports =
-        [ # Include the results of the hardware scan.
+    imports = [ 
         ./hardware-configuration.nix
-        ];
+    ];
 
     services.xserver.videoDrivers = ["nvidia"];
     hardware.nvidia.open = false;
