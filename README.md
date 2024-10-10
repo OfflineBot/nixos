@@ -17,6 +17,7 @@ This repository contains my NixOS/home-manager configuration files. It requires 
 - WindowManager:
     * GNOME (not configured in a declaritive way)
     * Hyprland (fully customized with: AGS + Swaylock + swww)
+- SDDM
 
 ## Structure
 It's split into the directories `nixos` and `home-manager`. `nixos` is the systems configuration and `home-manager` is the users configuration.
@@ -76,3 +77,7 @@ home-manager switch --flake .#laptop
 
 ## Screenshots (Hyprland)
 ![Hyprland](./screenshots/hyprland.png)
+
+## Credit
+The SDDM design is just the `sddm-sugar-candy` theme with a different wallpaper (maybe changes in the future). <br>
+The `sddm-sugar-candy` repository: `https://github.com/Kangie/sddm-sugar-candy`
