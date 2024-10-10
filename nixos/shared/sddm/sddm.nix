@@ -1,6 +1,11 @@
 { pkgs, ... }:
 {
-    #environment.etc."/usr/share/sddm/themes/sddm-sugar-candy".source = null; # not working yet
+    environment.etc."sddm/themes/sddm-sugar-candy" = {
+
+        source = ./src; # not working yet
+        mode = "0755";
+
+    };
 
     services.displayManager.sddm = {
         enable = true;
