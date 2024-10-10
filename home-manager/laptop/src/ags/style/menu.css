@@ -1,0 +1,221 @@
+
+@import url("./colors.css");
+
+.menu-window {
+}
+
+.menu-box {
+    /*border: 1px solid @border-color;*/
+    border: 2px solid transparent;
+    /*border-image: linear-gradient(to bottom, @cyan, @red) 1;*/
+    border-radius: 12px;
+    padding: 5px;
+    background-color: @bg1;
+}
+
+
+.menu-wrapper {
+    /*background-image: linear-gradient(to right, @purple, @red);*/
+    border: 1px solid @border-color;
+    /*border: none;*/
+    border-radius: 12px;
+    padding: 1px;
+}
+
+.time-widget {
+    border-radius: 12px;
+    background-color: @bg2;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.time-label {
+    font-size: 24px;
+    margin-top: 30px;
+}
+.date-label {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.power-widget {
+    border-radius: 12px;
+    min-width: 50px;
+    margin: 5px;
+    background-color: @bg2;
+}
+.menu-logout-btn {
+    background-color: @bg3;
+    padding: 5px 0px;
+}
+.menu-logout-btn:hover {
+    border: 1px solid @border-color;
+    transition: 0.3s;
+}
+
+.power-shutdown:hover {
+    background-color: #ef8da7;
+    transition: 0.3s;
+}
+.power-reboot:hover {
+    background-color: #fdb289;
+    transition: 0.3s;
+}
+.power-logout:hover {
+    background-color: #a8e2a5;
+    transition: 0.3s;
+}
+.power-lock:hover {
+    background-color: #88dbef;
+    transition: 0.3s;
+}
+
+.app-widget {
+    margin: 5px;
+}
+
+.app-block {
+    background-color: @bg2;
+    border-radius: 12px;
+}
+.app-block1 {
+    margin-right: 20px;
+    min-width: 140px;
+}
+.app-block2 {
+    min-width: 140px;
+    margin-right: 0px;
+}
+.app-btn {
+    min-width: 60px;
+    min-height: 50px;
+    margin: 5px;
+    padding: 0px;
+    background-color: @bg3;
+}
+.app-btn:hover {
+    border: 1px solid @border-color;
+    transition: 0.3s;
+}
+
+.folder-widget {
+    margin: 5px;
+}
+
+.folder-container {
+    background-color: @bg2;
+    border-radius: 12px 12px 0 0;
+}
+.folder-container2 {
+    background-color: @bg2;
+}
+.folder-container3 {
+    background-color: @bg2;
+    border-radius: 0 0 12px 12px;
+}
+
+.folder-btn {
+    min-width: 140px;
+    padding: 6px 0px;
+}
+.folder-btn:hover {
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.folder-btn:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: initial;
+}
+
+.folder-download {
+    color: @pink;
+    background-color: @bg2;
+}
+.folder-documents {
+    color: @cyan;
+    background-color: @bg2;
+}
+.folder-videos {
+    color: @yellow;
+    background-color: @bg2;
+}
+.folder-pictures {
+    color: @purple;
+    background-color: @bg2;
+}
+.folder-configs {
+    color:  @red;
+    background-color: @bg2;
+}
+.folder-home {
+    color: @dark-purple;
+    background-color: @bg2;
+}
+
+.pcinfo-widget {
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: @bg2;
+    border-radius: 12px;
+}
+
+.pc-value-left {
+    margin-right: 170px;
+    margin-left: 20px;
+}
+
+.pc-cpu-value {
+    color: #eba3a9;
+}
+.pc-ram-value {
+    color: #f9e2ad;
+}
+.pc-disk-value {
+    color: #f5c0e4;
+}
+.pc-cpu {
+    color: #eba3a9;
+}
+.pc-ram {
+    color: #f9e2ad;
+}
+.pc-disk {
+    color: #f5c0e4;
+}
+
+.pc-part-container {
+}
+
+.menu-media {
+    border: 1px solid transparent;
+}
+
+.player-box {
+    border-radius: 12px;
+    background-color: @bg2;
+    /*margin-left: 68px;*/
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.extra-widget {
+    border: 1px solid transparent;
+    border-bottom: 1px solid @border-color;
+    border-top: 1px solid @border-color;
+    margin: 5px;
+}
+
+.media-back {
+    margin-left: 78px;
+    background-color: @bg3;
+}
+
+.media-play {
+    background-color: @bg3;
+}
+
+.media-next {
+    background-color: @bg3;
+}

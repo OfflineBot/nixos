@@ -1,0 +1,32 @@
+@import url("./colors.css");
+
+.logout {
+    border-radius: 14px;
+}
+
+
+.logout-btn-container {
+    margin: 10px;
+}
+
+.logout-boxes {
+    margin: 10px;
+    padding: 10px;
+   /* border: 1px solid gray;*/
+}
+
+.logout-btn {
+    margin: 30px;
+    padding: 100px 200px 100px 200px;
+    background-color: @bg1;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.logout-btn:hover {
+    border: 3px solid @border-color;
+    background-color: @bg2;
+    /*transition: 0.3 ease; */
+    transition: 1s;
+}
+
