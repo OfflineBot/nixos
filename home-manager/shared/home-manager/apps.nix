@@ -55,6 +55,7 @@
         gnomeExtensions.just-perfection
         gnomeExtensions.app-icons-taskbar
         gnomeExtensions.blur-my-shell
+        gnomeExtensions.hide-top-bar
 
         # fonts
         nerdfonts
