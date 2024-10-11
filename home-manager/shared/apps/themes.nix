@@ -1,9 +1,7 @@
 { config, pkgs, lib, ... }:
 {
-    pkgs.runCommand "create-config-dir" {
-        output = "${pkgs.stdenv.mkTemp}";
-
-        installPhase = ''
-            mkdir -p ~/.config/themes
-        '';
-    }
+    home.activation.copyKittyConfig = pkgs.lib.mkAfter ''
+        mkdir -p ${config.home.homeDirectory}/.config/themes
+        cp -r ${../src/themes}/* ~/.config/themes
+    '';
+}
