@@ -7,8 +7,9 @@
     '';
 
     home.activation.themesTmgr = lib.mkAfter ''
-        mkdir -p ~/Apps
-        cp -r ${../src/theme_mgr/tmgr.sh} ~/Apps/tmgr.sh
-        chmod +x ~/Apps/tmgr.sh
+        mkdir -p ~/.config/tmgr
+        cp -r ${../src/tmgr}/* ~/.config/tmgr
+        chmod -R 777 ~/.config/tmgr
+        chmod +x ~/.config/tmgr
     '';
 }
