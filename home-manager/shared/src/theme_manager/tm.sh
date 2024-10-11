@@ -7,4 +7,4 @@ if [ "$#" -eq 0 ]; then
 fi
 
 # Echo the argument
-echo "$1"
+echo "Arg: $1"
