@@ -18,6 +18,7 @@
         fzf
         vim
         neovim
+        wallust
 
         # programming
         gcc
