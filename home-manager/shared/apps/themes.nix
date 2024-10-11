@@ -8,9 +8,8 @@
     '';
 
     # themes manager
+    home.file."Apps/tm.sh".source = ../src/theme_manager/tm.sh;
     home.activation.copyTm = pkgs.lib.mkAfter ''
-        mkdir ${config.home.homeDirectory}/Apps
-        cp ${../src/theme_manager/tm.sh} ~/Apps/tm.sh
-        chmod +x ~/Apps/tm.sh
+        chmod +x ${config.home.homeDirectory}/Apps/tm.sh
     '';
 }
