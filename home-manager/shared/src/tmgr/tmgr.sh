@@ -10,11 +10,11 @@ ACTION=$1
 
 # Perform actions based on the argument
 case $ACTION in
-    trans)
-        cp ~/.config/themes/themes/kitty_colors_transparent.conf ~/.config/themes/kitty_colors.conf
+    default)
+        cp ~/.config/themes/themes/kitty_colors_default.conf ~/.config/themes/kitty_colors.conf
         ;;
-    solid)
-        cp ~/.config/themes/themes/kitty_colors_solid.conf ~/.config/themes/kitty_colors.conf
+    sakura)
+        cp ~/.config/themes/themes/kitty_colors_sakura.conf ~/.config/themes/kitty_colors.conf
         ;;
     *)
         echo "invalid argument"
