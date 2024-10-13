@@ -8,7 +8,6 @@
     nixpkgs.config.permittedInsecurePackages = [
         "electron-25.9.0"
     ];
-
     home.sessionVariables = {
         EDITOR = "nvim";
     };

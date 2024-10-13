@@ -26,6 +26,7 @@
                   prev.glib
                   prev.gtk3
                   prev.xdg-desktop-portal
+                  prev.xdg-desktop-portal-wlr
                   prev.gsettings-desktop-schemas # settings exposed by settings portal
                   prev.gnome-desktop
                   prev.gnome-settings-daemon # schemas needed for settings api (mostly useless now that fonts were moved to g-d-s, just mouse and xsettings)

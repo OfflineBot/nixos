@@ -19,6 +19,7 @@
         vim
         neovim
         wallust
+        webcord
 
         # programming
         gcc
