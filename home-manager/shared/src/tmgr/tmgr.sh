@@ -19,8 +19,8 @@ case $ACTION in
     #    ;;
 
     default-trans)
-        cp ~/.config/themes/themes/kitty_colors_default_trans.conf ~/.config/themes/kitty_colors.conf
-        cp ~/.config/themes/themes/colors_default_trans.css ~/.config/ags/style/colors.css
+        cp ~/.config/themes/themes/default/kitty_colors.conf ~/.config/themes/kitty_colors.conf
+        cp ~/.config/themes/themes/default/ags_colors.conf ~/.config/ags/style/colors.css
         swww img ~/Pictures/active_wallpaper/darker_catpuccin.jpg
         hyprctl keyword general:col.active_border "rgba(8ee0d4ee) rgba(e69ea8ee) 45deg"
         hyprctl keyword decoration:blur:enabled true
@@ -29,8 +29,8 @@ case $ACTION in
         ;;
 
     sakura)
-        cp ~/.config/themes/themes/kitty_colors_sakura.conf ~/.config/themes/kitty_colors.conf
-        cp ~/.config/themes/themes/colors_default_trans.css ~/.config/ags/style/colors.css
+        cp ~/.config/themes/themes/sakura/kitty_colors_sakura.conf ~/.config/themes/kitty_colors.conf
+        cp ~/.config/themes/themes/sakura/ags_colors.css ~/.config/ags/style/colors.css
         swww img ~/Pictures/active_wallpaper/red_sakura.jpg
         hyprctl keyword general:col.active_border "rgba(d93840ee) rgba(731015ee) 45deg"
         hyprctl keyword decoration:blur:enabled true
