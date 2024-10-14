@@ -1,4 +1,4 @@
-{ inputs, config, pkgs, ... }:
+{ lib, inputs, config, pkgs, ... }:
 {
 
     imports = [ 
@@ -16,5 +16,13 @@
         ];
     };
 
-    home.file.".config/ags".source = ../src/ags;
+    #home.file.".config/ags".source = ../src/ags;
+
+    home.activation.agsFolder = lib.mkAfter ''
+        mkdir -p ~/.config/ags
+        chmod -R 777 ~/.config/ags
+        cp -r ${../src/ags}/* ~/.config/ags
+    '';
+
+
 }

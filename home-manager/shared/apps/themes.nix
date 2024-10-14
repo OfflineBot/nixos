@@ -3,7 +3,7 @@
     home.activation.themesFolder = lib.mkAfter ''
         mkdir -p ~/.config/themes
         cp -r ${../src/themes}/* ~/.config/themes
-        chmod -R 777 ~/.config/themes
+        chmod -R 766 ~/.config/themes
     '';
 
     home.activation.themesTmgr = lib.mkAfter ''
