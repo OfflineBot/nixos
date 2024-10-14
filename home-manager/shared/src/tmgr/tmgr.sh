@@ -17,6 +17,12 @@ case $ACTION in
         hyprctl keyword decoration:blur:enabled false
         ;;
     default-trans)
+        cp ~/.config/themes/themes/kitty_colors_default_trans.conf ~/.config/themes/kitty_colors.conf
+        swww img ~/Pictures/active_wallpaper/darker_catpuccin.jpg
+        hyprctl keyword general:col.active_border "rgba(8ee0d4ee) rgba(e69ea8ee) 45deg"
+        hyprctl keyword decoration:blur:enabled true
+        hyprctl keyword decoration:blur:size 10
+        hyprctl keyword decoration:blur:passes 3
         ;;
     sakura)
         cp ~/.config/themes/themes/kitty_colors_sakura.conf ~/.config/themes/kitty_colors.conf

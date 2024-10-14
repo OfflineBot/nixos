@@ -1,5 +1,6 @@
 
-@define-color bg1 #0f0f0f;
+/*@define-color bg1 #0f0f0f;*/
+@define-color bg1 rgba(16, 16, 16, 0.8);
 @define-color bg2 #141414;
 @define-color bg3 #232323;
 
