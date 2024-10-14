@@ -12,9 +12,11 @@ ACTION=$1
 case $ACTION in
     default)
         cp ~/.config/themes/themes/kitty_colors_default.conf ~/.config/themes/kitty_colors.conf
+        swww img ~/Pictures/active_wallpaper/darker_catpuccin.jpg
         ;;
     sakura)
         cp ~/.config/themes/themes/kitty_colors_sakura.conf ~/.config/themes/kitty_colors.conf
+        swww img ~/Pictures/active_wallpaper/red_sakura.jpg
         ;;
     *)
         echo "invalid argument"
