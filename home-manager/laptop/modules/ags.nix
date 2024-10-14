@@ -20,8 +20,8 @@
 
     home.activation.agsFolder = lib.mkAfter ''
         mkdir -p ~/.config/ags
-        chmod -R 777 ~/.config/ags
         cp -r ${../src/ags}/* ~/.config/ags
+        chmod -R 777 ~/.config/ags
     '';
 
 

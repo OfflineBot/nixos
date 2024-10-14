@@ -1,12 +1,12 @@
 
-@define-color bg1 #0f0f0f;
-@define-color bg2 #141414;
+@define-color bg1 rgba(16, 16, 16, 0.8);
+@define-color bg2 rgba(20, 20, 20, 0.8);
 @define-color bg3 #232323;
 
 @define-color text #cccccc;
 
-@define-color border-color #888888;
-@define-color selecter rgb(226, 103, 123);
+@define-color border-color #731015;
+@define-color selecter rgba(226, 103, 123, 0.8);
 
 @define-color cyan #8ee0d4;
 @define-color pink #fbc2e8;
