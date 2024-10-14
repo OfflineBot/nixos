@@ -9,6 +9,7 @@
     hardware.nvidia.open = false;
 
     hardware.graphics.extraPackages = [ pkgs.nvidia-vaapi-driver ];
+    services.desktopManager.plasma6.enable = true;
 
     hardware.nvidia.powerManagement.enable = true;
 
