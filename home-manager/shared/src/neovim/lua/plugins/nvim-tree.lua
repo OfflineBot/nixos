@@ -6,23 +6,27 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require'nvim-tree'.setup {
-  renderer = {
-    icons = {
-      glyphs = {
-        folder = {
-          default = "",
-          open = "",
-          empty = "",
-          empty_open = "",
-          symlink = "",
-          symlink_open = "",
+    renderer = {
+        icons = {
+            glyphs = {
+                folder = {
+                    default = "",
+                    open = "",
+                    empty = "",
+                    empty_open = "",
+                    symlink = "",
+                    symlink_open = "",
+                }
+            },
+            show = {
+                folder_arrow = false,
+            }
         }
-      },
-      show = {
-          folder_arrow = false,
-      }
+    },
+    view = {
+        side = 'right',
+        width = 30,
     }
-  }
 }
 vim.keymap.set('n', '<c-n>', ':NvimTreeFindFileToggle<CR>')
 vim.cmd [[command! NTT :NvimTreeToggle]]

@@ -4,8 +4,8 @@ set default-fg                  rgba(205,214,244,0.8)
 set default-bg                  rgba(15,15,15,0.8)
 
 # main page color
-set recolor-lightcolor          rgba(30,30,30,0.0)
-set recolor-darkcolor           rgba(205,214,244,0.0)
+set recolor-lightcolor          rgba(30,30,30,1.0)
+set recolor-darkcolor           rgba(205,214,244,1.0)
 
 
 # important
