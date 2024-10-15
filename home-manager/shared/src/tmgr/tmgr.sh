@@ -10,13 +10,13 @@ ACTION=$1
 
 # Perform actions based on the argument
 case $ACTION in
-    #default)
-    #    cp ~/.config/themes/themes/kitty_colors_default.conf ~/.config/themes/kitty_colors.conf
-    #    cp ~/.config/themes/themes/default_colors.css ~/.config/ags/style/colors.css
-    #    swww img ~/Pictures/active_wallpaper/darker_catpuccin.jpg
-    #    hyprctl keyword general:col.active_border "rgba(8ee0d4ee) rgba(e69ea8ee) 45deg"
-    #    hyprctl keyword decoration:blur:enabled false
-    #    ;;
+    default)
+        cp ~/.config/themes/themes/old/kitty_colors_default.conf ~/.config/themes/kitty_colors.conf
+        cp ~/.config/themes/themes/old/ags_colors.conf ~/.config/ags/style/colors.css
+        swww img ~/Pictures/active_wallpaper/darker_catpuccin.jpg
+        hyprctl keyword general:col.active_border "rgba(8ee0d4ee) rgba(e69ea8ee) 45deg"
+        hyprctl keyword decoration:blur:enabled false
+        ;;
 
     default-trans)
         cp ~/.config/themes/themes/default/kitty_colors.conf ~/.config/themes/kitty_colors.conf
