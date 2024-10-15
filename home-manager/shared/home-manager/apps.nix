@@ -20,6 +20,7 @@
         neovim
         wallust
         webcord
+        libreoffice-qt6-fresh
 
         # programming
         gcc
