@@ -23,7 +23,7 @@
         libsForQt5.qt5.qtquickcontrols2
         libsForQt5.qt5.qtgraphicaleffects
         xorg.xrandr
-        pipewire
+        #pipewire
         xdg-desktop-portal
         xdg-desktop-portal-wlr
     ];
