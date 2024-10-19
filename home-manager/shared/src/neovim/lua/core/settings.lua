@@ -22,6 +22,9 @@ o.list = true
 o.showcmd = true
 o.showmode = true
 
+--o.cursorline = true
+--vim.api.nvim_set_hl(0, 'CursorLine', { bg = '#cccccc'} )
+
 --o.encoding = 'uft-8'
 o.textwidth = 0
 
