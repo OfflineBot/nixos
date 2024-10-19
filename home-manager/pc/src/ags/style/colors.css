@@ -1,7 +1,7 @@
 
-@define-color bg1 #0f0f0f;
-@define-color bg2 #141414;
-@define-color bg3 #232323;
+@define-color bg1 rgba(16, 20, 25,1.0);
+@define-color bg2 rgba(25, 30, 35,1.0);
+@define-color bg3 rgba(35, 40, 45,1.0);
 
 @define-color text #cccccc;
 

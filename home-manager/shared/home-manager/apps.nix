@@ -21,6 +21,7 @@
         wallust
         webcord
         libreoffice-qt6-fresh
+        cloc
 
         # programming
         gcc
