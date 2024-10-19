@@ -30,7 +30,7 @@
                 extraSpecialArgs = { inherit inputs; };
 
                 modules = [ ./pc/pc.nix ];
-        };
+            };
         };
     };
 }

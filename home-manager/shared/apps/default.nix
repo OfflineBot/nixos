@@ -5,7 +5,7 @@
         ./kitty.nix
         ./neovim.nix
         ./swaylock.nix
-        ./themes.nix
+        #./themes.nix
         ./zathura.nix
     ];
 }
