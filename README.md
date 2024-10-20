@@ -76,7 +76,8 @@ home-manager switch --flake .#laptop
 ```
 
 ## Screenshots (Hyprland)
-![Hyprland](./screenshots/hyprland.png)
+![cyan](./screenshots/cyan.png)
+![tokyo](./screenshots/tokyo.png)
 
 ## Credit
 The SDDM design is just the `sddm-sugar-candy` theme with a different wallpaper (maybe changes in the future). <br>
