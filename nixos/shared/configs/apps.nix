@@ -26,6 +26,7 @@
         #pipewire
         xdg-desktop-portal
         xdg-desktop-portal-wlr
+        gnome-themes-extra
     ];
 
 }

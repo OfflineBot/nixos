@@ -33,7 +33,7 @@
         glib
         lua
         lua-language-server
-        vscode
+        vscode-fhs
 
         # latex
         zathura
@@ -54,6 +54,7 @@
         swaylock-effects
         swww
         xclip wl-clipboard
+        gnome.gnome-tweaks
 
         #wm - gnome
         gnomeExtensions.gnome-40-ui-improvements
