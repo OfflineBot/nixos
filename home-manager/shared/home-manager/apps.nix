@@ -33,6 +33,7 @@
         glib
         lua
         lua-language-server
+        vscode
 
         # latex
         zathura
