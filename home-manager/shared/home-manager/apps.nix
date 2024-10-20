@@ -33,7 +33,8 @@
         glib
         lua
         lua-language-server
-        vscode-fhs
+        #vscodium
+        vscode
 
         # latex
         zathura
