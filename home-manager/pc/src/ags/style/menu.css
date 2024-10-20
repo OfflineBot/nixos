@@ -24,6 +24,7 @@
 
 .time-widget {
     border-radius: 12px;
+    border: 1px solid @border-color;
     background-color: @bg2;
     min-width: 250px;
     margin: 5px;
@@ -40,6 +41,7 @@
 
 .power-widget {
     border-radius: 12px;
+    border: 1px solid @border-color;
     min-width: 50px;
     margin: 5px;
     background-color: @bg2;
@@ -77,14 +79,17 @@
 .app-block {
     background-color: @bg2;
     border-radius: 12px;
+    border: 1px solid @border-color;
 }
 .app-block1 {
     margin-right: 20px;
     min-width: 140px;
+    border: 1px solid @border-color;
 }
 .app-block2 {
     min-width: 140px;
     margin-right: 0px;
+    border: 1px solid @border-color;
 }
 .app-btn {
     min-width: 60px;
@@ -100,6 +105,7 @@
 
 .folder-widget {
     margin: 5px;
+    border: 1px solid @border-color;
 }
 
 .folder-container {
@@ -157,6 +163,7 @@
     margin: 5px;
     padding: 10px 10px;
     background-color: @bg2;
+    border: 1px solid @border-color;
     border-radius: 12px;
 }
 

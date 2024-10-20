@@ -2,16 +2,20 @@
 
 .logout {
     border-radius: 14px;
+    border: 1px solid @border-color;
 }
 
 
 .logout-btn-container {
     margin: 10px;
+    background-color: rgba(0,0,0,0.0);
 }
 
 .logout-boxes {
     margin: 10px;
     padding: 10px;
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 3px;
    /* border: 1px solid gray;*/
 }
 
@@ -26,7 +30,6 @@
 .logout-btn:hover {
     border: 3px solid @border-color;
     background-color: @bg2;
-    /*transition: 0.3 ease; */
     transition: 1s;
 }
 

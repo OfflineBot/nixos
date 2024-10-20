@@ -18,6 +18,7 @@
 .app-search {
     background-color: @bg3;
     border: 1px solid @border-color;
+    color: white;
 }
 
 .app-item {
