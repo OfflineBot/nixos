@@ -22,6 +22,7 @@
         webcord
         libreoffice-qt6-fresh
         cloc
+        bat
 
         # programming
         gcc
