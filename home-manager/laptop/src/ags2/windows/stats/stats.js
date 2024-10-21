@@ -2,16 +2,16 @@ import { cpu, ram, disk } from "../bar/hardware.js";
 
 const NAME = "stats";
 
-//export const brightness = Variable("", {
-//    poll: [250, App.configDir + '/scripts/get_bright.sh']
-//});
+export const brightness = Variable("", {
+    poll: [250, App.configDir + '/scripts/get_bright.sh']
+});
 
 export const volume = Variable("", {
     poll: [250, App.configDir + '/scripts/get_full_sound.sh']
 });
-//export const battery = Variable("", {
-//    poll: [1000, App.configDir + '/scripts/battery.sh']
-//})
+export const battery = Variable("", {
+    poll: [1000, App.configDir + '/scripts/battery.sh']
+})
 
 export const wifi = Variable("", {
     poll: [5000, App.configDir + '/scripts/wifi.sh']
@@ -41,9 +41,9 @@ const stats_box = Widget.Box({
         stat("CPU:", cpu.bind(), "stat-cpu"),
         stat("RAM:", ram.bind(), "stat-ram"),
         stat("DISK:", disk.bind(), "stat-disk"),
-        //stat("Brightness:", brightness.bind(), "stat-bright"),
+        stat("Brightness:", brightness.bind(), "stat-bright"),
         stat("Volume:", volume.bind(), "stat-volume"),
-        //stat("Battery:", battery.bind(), "stat-battery"),
+        stat("Battery:", battery.bind(), "stat-battery"),
         stat("WiFi:", wifi.bind(), "stat-wifi"),
     ]
 })
