@@ -1,0 +1,17 @@
+
+@define-color bg1 rgba(31, 35, 42,0.1);
+@define-color bg2 rgba(41, 45, 47,0.2);
+@define-color bg3 rgba(51, 55, 57,0.0);
+
+@define-color text #cccccc;
+
+@define-color border-color #888888;
+@define-color selecter rgba(226, 103, 123,0.3);
+
+@define-color cyan #8ee0d4;
+@define-color pink #fbc2e8;
+@define-color yellow #f8dfa5;
+@define-color purple #c4a5ef;
+@define-color red #e69ea8;
+@define-color dark-purple #b8bbfc;
+
