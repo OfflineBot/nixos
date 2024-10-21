@@ -56,7 +56,7 @@
         swaylock-effects
         swww
         xclip wl-clipboard
-        gnome.gnome-tweaks
+        gnome-tweaks
 
         #wm - gnome
         gnomeExtensions.gnome-40-ui-improvements
