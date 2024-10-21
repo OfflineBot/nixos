@@ -16,13 +16,5 @@
         ];
     };
 
-    #home.file.".config/ags".source = ../src/ags;
-
-    home.activation.agsFolder = lib.mkAfter ''
-        mkdir -p ~/.config/ags
-        cp -r ${../src/ags}/* ~/.config/ags
-        chmod -R 777 ~/.config/ags
-    '';
-
-
+    home.file.".config/ags".source = ../src/ags2;
 }

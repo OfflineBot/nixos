@@ -1,0 +1,48 @@
+
+@import url("./colors.css");
+
+.stat-wrapper {
+    /*background-image: linear-gradient(to right, @purple, @red);*/
+    border: 1px solid @border-color;
+    border-radius: 12px;
+    padding: 1px;
+}
+
+.stats-main {
+    /*border: 1px solid @border-color;*/
+    /*border: 1px solid @border-color;*/
+    /*border-image: linear-gradient(to bottom, @cyan, @red) 1;*/
+    border-radius: 12px;
+    padding: 10px;
+    background-color: @bg1;
+}
+
+.stat-box {
+    padding: 2px;
+}
+
+.stat-name-box {
+    min-width: 100px;
+}
+.stat-val-box {
+    min-width: 100px;
+}
+
+.stat-cpu {
+    color: @red;
+}
+.stat-ram {
+    color: @yellow;
+}
+.stat-disk {
+    color: @pink;
+}
+.stat-bright {
+    color: @purple ;
+}
+.stat-volume {
+    color: @dark-purple;
+}
+.stat-battery {
+    color: @yellow;
+}
