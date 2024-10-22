@@ -1,8 +1,9 @@
 { ... }: 
 {
     imports = [
-        ./apps.nix
+        ./app_links.nix
         ./basics.nix
+        ./packages.nix
     ];
 }
 
