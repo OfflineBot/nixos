@@ -7,10 +7,10 @@ in
 {
 
     home.file = {
-        ".config/kitty".source = config.lib.file.mkOutOfStoreSymlink homeManagerDir/shared/src/kitty;
-        ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink homeManagerDir/shared/src/neovim;
-        ".config/swaylock".source = config.lib.file.mkOutOfStoreSymlink homeManagerDir/shared/src/swaylock;
-        ".config/zathura".source = config.lib.file.mkOutOfStoreSymlink homeManagerDir/shared/src/zathura;
+        ".config/kitty".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/kitty";
+        ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/neovim";
+        ".config/swaylock".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/swaylock";
+        ".config/zathura".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/zathura";
 
         ".bashrc".text = ''
             # Source global definitions
