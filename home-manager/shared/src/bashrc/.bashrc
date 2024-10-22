@@ -34,5 +34,5 @@ export GTK_THEME="Adwaita-dark"
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-PS1="\[\033[0;34\]\w> \[\033[0;37\]"
+PS1="\[\033[0;34m\]\w>\[\033[0;37m\] "
 
