@@ -23,6 +23,7 @@
         libreoffice-qt6-fresh
         cloc
         bat
+        stow
 
         # programming
         gcc
