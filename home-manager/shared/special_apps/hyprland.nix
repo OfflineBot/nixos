@@ -21,9 +21,8 @@ in
     home.file.".config/hypr/hypr_config".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/hypr/hypr_config";
     home.file.".config/hypr/scripts".source = config.lib.file.mkOutOfStoreSymlink "${homeManagerDir}/shared/src/hypr/scripts";
 
-
     ##### the main file! #####
-    home.file.".config/hyprland.conf".text = ''
+    home.file.".config/hypr/hyprland.conf".text = ''
 exec-once = ags
 exec-once = swww-daemon
 #exec-once sleep1 && swww img ~/Pictures/active_wallpaper/cyan_surface.jpg
