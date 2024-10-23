@@ -7,5 +7,5 @@ let
         "${homeManagerDir}/shared/src/hypr/hypr_pc";
 in
 {
-    home.file.".config/hypr".source = hyprConfig;
+    home.file.".config/hypr".source = config.lib.file.mkOutOfStoreSymlink hyprConfig;
 }
