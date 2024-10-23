@@ -5,3 +5,4 @@
         #./hyprland.nix
     ];
 }
+
