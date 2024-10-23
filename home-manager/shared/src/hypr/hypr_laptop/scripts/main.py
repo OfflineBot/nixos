@@ -1,4 +1,3 @@
-print("running script")
 
 import os
 import json
@@ -26,21 +25,33 @@ def handle_files(path: str):
     hyprctl_command = ["hyprctl", "keyword", "general:col.active_border"]
 
     if "cyan" in path:
+        print("setting up cyan")
         hyprctl_command.append(cyan)
         subprocess.run(hyprctl_command)
+        print("hyprland borders switched")
         subprocess.run(["cp", os.path.join(full_kitty_path, 'colors/cyan.conf'), os.path.join(full_kitty_path, 'colors.conf')])
+        print("terminal colors set")
     elif "red" in path:
+        print("setting up red")
         hyprctl_command.append(red)
         subprocess.run(hyprctl_command)
+        print("hyprland borders switched")
         subprocess.run(["cp", os.path.join(full_kitty_path, 'colors/red.conf'), os.path.join(full_kitty_path, 'colors.conf')])
+        print("terminal colors set")
     elif "purple" in path:
+        print("setting up purple")
         hyprctl_command.append(purple)
         subprocess.run(hyprctl_command)
+        print("hyprland borders switched")
         subprocess.run(["cp", os.path.join(full_kitty_path, 'colors/purple.conf'), os.path.join(full_kitty_path, 'colors.conf')])
+        print("terminal colors set")
     else:
+        print("setting up default")
         hyprctl_command.append(white)
         subprocess.run(hyprctl_command)
+        print("hyprland borders switched")
         subprocess.run(["cp", os.path.join(full_kitty_path, 'colors/default.conf'), os.path.join(full_kitty_path, 'colors.conf')])
+        print("terminal colors set")
 
     subprocess.run(["swww", "img", os.path.join(full_image_path, path)], check=True)
 
@@ -60,18 +71,14 @@ with open("./data.json", "r") as file:
     maximum = data['maximum']
     
     if maximum != len(files):
-        print(f"new maximum: {maximum}")
         maximum = len(files)
     
     if current == maximum:
-        print("current resetting to 1")
         current = 1
     else:
-        print(f"current adding to be: {current}")
         current += 1
 
     handle_files(files[current - 1])
     
     with open("./data.json", "w") as filew:
-        print("write new data")
         json.dump({"maximum": maximum, "current": current}, filew)
