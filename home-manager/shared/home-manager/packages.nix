@@ -27,6 +27,7 @@
 
         # programming
         gcc
+        go
         python3
         rustc cargo rust-analyzer
         nodejs
