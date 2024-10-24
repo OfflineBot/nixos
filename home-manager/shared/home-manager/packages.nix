@@ -52,6 +52,7 @@
         gimp
         gparted
         whatsapp-for-linux
+        inkscape
 
         # wm - hyprland
         swaylock-effects
