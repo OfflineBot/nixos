@@ -6,9 +6,19 @@ vim.opt.termguicolors = true
 
 -- empty setup using defaults
 require'nvim-tree'.setup {
+    git = {
+        enable = true,
+    },
     renderer = {
         icons = {
             glyphs = {
+                git = {
+                    unstaged = '✗',  -- Custom unstaged icon
+                    staged = '✓',     -- Custom staged icon
+                    untracked = '',  -- Custom untracked icon
+                    deleted = '✖',    -- Custom deleted icon
+                    ignored = '☒',    -- Custom ignored icon
+                },
                 folder = {
                     default = "",
                     open = "",
@@ -16,11 +26,11 @@ require'nvim-tree'.setup {
                     empty_open = "",
                     symlink = "",
                     symlink_open = "",
-                }
+                },
             },
             show = {
-                folder_arrow = false,
-            }
+                folder_arrow = true,
+            },
         }
     },
     view = {
